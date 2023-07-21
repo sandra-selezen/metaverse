@@ -29,7 +29,7 @@ const World = () => (
           <img
             src="people-01.png"
             alt="people"
-            className="w-full h-full shadow-md-[0px 4px 4px 0px rgba(0,0,0,0.25)]"
+            className="w-full h-full"
           /> 
         </div>
         <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
