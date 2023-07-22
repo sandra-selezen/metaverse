@@ -86,3 +86,34 @@ export const socials = [
     url: '/facebook.svg',
   },
 ];
+
+export const navLinks = [
+  {
+    id: "about",
+    title: "About Metaverus",
+  },
+  {
+    id: "explore",
+    title: "The World",
+  },
+  {
+    id: "how-metaverus-works",
+    title: "How Metaverus Works",
+  },
+  {
+    id: "whats-new",
+    title: "Whats New?",
+  },
+  {
+    id: "world",
+    title: "People on the World",
+  },
+  {
+    id: "insight",
+    title: "Insight",
+  },
+  {
+    id: "feedback",
+    title: "Feedback",
+  },
+];
