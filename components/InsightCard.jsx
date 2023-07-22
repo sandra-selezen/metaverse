@@ -11,6 +11,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
     <img
       src={imgUrl}
       alt="planet"
+      loading="lazy"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
     />
     <div className="w-full flex justify-between items-center">
@@ -22,6 +23,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
         <img
           src="arrow.svg"
           alt="arrow"
+          loading="lazy"
           className="w-[40%] h-[40%] object-contain"
         />
       </div>

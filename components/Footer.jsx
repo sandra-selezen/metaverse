@@ -20,6 +20,7 @@ const Footer = () => (
           <img
             src="/headset.svg"
             alt="headset"
+            loading="lazy"
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">ENTER METAVERSE</span>
@@ -37,6 +38,7 @@ const Footer = () => (
                 key={social.name}
                 src={social.url}
                 alt={social.name}
+                loading="lazy"
                 className="w-[24px] h-[24px] object-contain cursor-pointer"
               />
             ))}

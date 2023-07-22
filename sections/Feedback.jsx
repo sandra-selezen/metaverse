@@ -31,8 +31,9 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
+          src="/planet-09.webp"
           alt="planet"
+          loading="lazy"
           className="w-full lg:h-[610px] h-auto min-h[210px] object-cover rounded-[40px]"
         />
         <motion.div
@@ -41,8 +42,9 @@ const Feedback = () => (
         >
           <a href="#explore">
             <img
-                src="/stamp.png"
+                src="/stamp.webp"
                 alt="stamp"
+                loading="lazy"
                 className="w-[155px] h-[155px] object-contain"
               />
           </a>

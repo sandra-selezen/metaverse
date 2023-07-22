@@ -6,6 +6,7 @@ const NewFeatures = ({ imgUrl, title, subtitle }) => (
       <img
         src={imgUrl}
         alt="icon"
+        loading="lazy"
         className="w-1/2 h-1/2 object-contain"
       />
     </div>

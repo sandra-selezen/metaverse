@@ -21,14 +21,16 @@ const World = () => (
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img
-          src="/map.png"
+          src="/map.webp"
           alt="map"
+          loading="lazy"
           className="w-full h-full object-cover"
         />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <img
             src="people-01.png"
             alt="people"
+            loading="lazy"
             className="w-full h-full"
           /> 
         </div>
@@ -36,6 +38,7 @@ const World = () => (
           <img
             src="people-02.png"
             alt="people"
+            loading="lazy"
             className="w-full h-full"
           /> 
         </div>
@@ -43,6 +46,7 @@ const World = () => (
           <img
             src="people-03.png"
             alt="people"
+            loading="lazy"
             className="w-full h-full"
           /> 
         </div>

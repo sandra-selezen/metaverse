@@ -35,8 +35,9 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/whats-new.png"
+          src="/whats-new.webp"
           alt="whats new"
+          loading="lazy"
           className="w-[90%] h-[90%] object-contain"
         />
       </motion.div>
