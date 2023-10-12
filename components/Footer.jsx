@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { footerVariants } from "../utils/motion";
@@ -31,7 +32,7 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold tex-[24px] text-white">METAVERUS</h4>
-          <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2021 - 2023 Metaversus. All rights reserved.</p>
+          <p className="font-normal text-[14px] text-white opacity-50">Developed with 💙💛 by <Link href="https://github.com/sandra-selezen" target="__blank">Sandra Selezen</Link></p>
           <div className="flex gap-4">
             {socials.map((social) => (
               <img
